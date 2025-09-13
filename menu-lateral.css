@@ -73,6 +73,9 @@
     cursor: pointer;
     padding: 10px;
     background: transparent;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* fotos dos icones*/
@@ -90,4 +93,5 @@
 .sair{
     width: 23px;
     height: 23px;
+
 }
