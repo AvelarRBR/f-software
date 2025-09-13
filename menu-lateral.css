@@ -1,0 +1,93 @@
+/*Logo do menu*/
+
+.logo-menu{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+}
+
+/*Textos do Logo do menu*/
+
+.textologo p {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+}
+.textologo h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1857E0;
+}
+
+/*Tudo está dentro dessa div*/
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+
+}
+
+/*O menu em si está nessa div*/
+
+.menu{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    align-items: center;
+}
+
+/*Botões */
+
+.botao{
+    width: 252px;
+    height: 48px;
+    padding:10px 12px;
+    text-align:left;
+    border-radius:100px;
+    border-color: #808080;
+    cursor:pointer;
+    border-width: 1px;
+    background: transparent;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Botão sair*/
+
+.bsair{
+    margin-top: 250px;
+    padding: 10px 12px;
+    text-align: center;
+    width: 200px;
+    height: 48px;
+    border-radius: 100px;
+    border-color: #808080;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+}
+
+/* fotos dos icones*/
+
+.exibir{
+    width: 20px;
+    height: 14px;
+}
+
+.config{
+    width: 24px;
+    height: 23px;
+}
+
+.sair{
+    width: 23px;
+    height: 23px;
+}
